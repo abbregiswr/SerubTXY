@@ -31,7 +31,6 @@ jobs:
         os: [ubuntu-latest]
     env:
       CHIA_ROOT: ${{ github.workspace }}/.chia/mainnet
-      JOB_FILE_NAME: tests_${{ matrix.os }}_python-${{ matrix.python-version }}_wallet-sync
 
     steps:
     - name: Checkout Code
